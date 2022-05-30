@@ -1,0 +1,34 @@
+@import url(./footer-brand.css);
+@import url(./footer-contact.css);
+@import url(./footer-menu.css);
+@import url(./footer-facebook.css);
+
+.footer-info {
+    background-color: var(--primary-gray);
+    padding: 31px 62px;
+    color: var(--primary-white);
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+.footer-copyright {
+    background-color: var(--primary-black);
+    color: var(--primary-white);
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+}
+
+@media screen and (max-width: 950px) {
+    .footer-info {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-info * {
+        text-align: center;
+    }
+}

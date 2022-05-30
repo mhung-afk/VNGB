@@ -1,0 +1,15 @@
+.footer-contact {
+    margin-top: 32px;
+}
+
+.footer-contact .contact-title{
+    margin-bottom: 10px;
+}
+
+.footer-contact .contact-item {
+    margin-top: 10px;
+}
+
+.footer-contact .contact-item .contact-icon {
+    margin-right: 10px;
+}
